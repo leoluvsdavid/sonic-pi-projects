@@ -9,7 +9,6 @@ end
 
 with_fx :compressor do
   live_loop :dark, delay: 4 do
-    use_synth :tb303
     use_synth_defaults res: 0.9, cutoff: rrand(80, 95), amp: 0.8
     play :c2, sustain: 3
     play :c3, sustain: 3
